@@ -23,11 +23,11 @@ from spotipy.oauth2 import SpotifyOAuth
 
 # ====================== EDIT THIS SECTION ======================
 
-CLIENT_ID = "bc1292b8276146fc87c6858aa99c85b1"
-CLIENT_SECRET = "1bfd1487b48941e9b1852859261e8eb9"
+CLIENT_ID = "INSERT CLIENT_ID"
+CLIENT_SECRET = "INSERT CLIENT_SECRET"
 REDIRECT_URI = "http://127.0.0.1:8888/callback"
 
-TIME_OFFSET = 0.387         # seconds; raise if lyrics feel late, lower if early
+TIME_OFFSET = 0.387      # seconds; raise if lyrics feel late, lower if early
 TYPEWRITER_MS = 40       # ms per character
 
 BOX_W, BOX_H = 300, 250
